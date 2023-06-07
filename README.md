@@ -59,8 +59,8 @@ express-graphql/
   └── package.json
 ```
 
-- `src/resolvers.js`: This file contains the resolver functions that define how the GraphQL server handles different queries and mutations.
-- `src/graphql.js`: Here, you define the GraphQL schema. It includes the types, queries, and mutations supported by your API.
+- `/resolvers.js`: This file contains the resolver functions that define how the GraphQL server handles different queries and mutations.
+- `/graphql.js`: Here, you define the GraphQL schema. It includes the types, queries, and mutations supported by your API.
 - `server.js`: This is the main entry point of the application. It sets up the Express.js server and integrates Apollo Server with the defined schema and resolvers.
 - `package.json`: The package configuration file containing project metadata and dependencies.
 
